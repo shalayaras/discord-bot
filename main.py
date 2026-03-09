@@ -93,4 +93,4 @@ async def suggest(ctx,*,text):
     await msg.add_reaction("👍")
     await msg.add_reaction("👎")
 
-bot.run("MTQ4MDM5MjkxNTQ0MzI1NzQxNg.G7rWkj.5V2UW9r3qn6oXg8-7L6b3Endac4LOBZItimuMY")
+bot.run("MTQ4MDM5MjkxNTQ0MzI1NzQxNg.G3xwou.jGFovJizRsIKaF4jGziaGg3se5PfeV-nFV0Ns4")
