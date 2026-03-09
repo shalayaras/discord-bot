@@ -12,7 +12,7 @@ TOKEN = os.getenv("MTQ4MDM5MjkxNTQ0MzI1NzQxNg.GJ_0pi.NmUlqLFQQQi02NBxqbRDXgw8mcg
 
 @bot.event
 async def on_ready():
-    print(f"{Qaysar.QA} is online!")
+    print(f"{"Qaysar.QA} is online!")
 
 @bot.event
 async def on_member_join(member):
@@ -24,4 +24,4 @@ async def on_member_join(member):
 async def ping(ctx):
     await ctx.send("Pong!")
 
-bot.run(MTQ4MDM5MjkxNTQ0MzI1NzQxNg.GJ_0pi.NmUlqLFQQQi02NBxqbRDXgw8mcgLwNyTU256tY)
+bot.run("MTQ4MDM5MjkxNTQ0MzI1NzQxNg.GJ_0pi.NmUlqLFQQQi02NBxqbRDXgw8mcgLwNyTU256tY")
