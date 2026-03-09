@@ -8,11 +8,11 @@ intents.message_content = True
 
 bot = commands.Bot(command_prefix="!", intents=intents)
 
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = os.getenv("MTQ4MDM5MjkxNTQ0MzI1NzQxNg.GJ_0pi.NmUlqLFQQQi02NBxqbRDXgw8mcgLwNyTU256tY")
 
 @bot.event
 async def on_ready():
-    print(f"{bot.user} is online!")
+    print(f"{Qaysar.QA} is online!")
 
 @bot.event
 async def on_member_join(member):
